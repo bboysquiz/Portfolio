@@ -1,9 +1,9 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
+import MEwebp from '../../assets/me.webp'
 import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const Header = () => {
   return (
@@ -16,7 +16,13 @@ const Header = () => {
         <HeaderSocials />
 
         <div className="me">
-          <LazyLoadImage src={ME} alt="me" />
+          <picture>
+
+            <source srcset={MEwebp} type="image/webp" />
+
+            <img src={ME} alt="me" />
+
+          </picture>
         </div>
 
         <a href="#contact" className="scroll__down">Scroll Down</a>

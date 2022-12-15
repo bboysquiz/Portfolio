@@ -27,9 +27,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "'Telix' was created using JQuery, SASS, PHP, RedBean PHP and Wordpress",
-    github: 'https://github.com/bboysquiz/Telix',
-    demo: 'https://nikitaskvirskiy.ru/Telix'
+    title: "'Metaverse' is training project using React JS, Next JS, Framer Motion and Tailwind CSS",
+    github: 'https://github.com/bboysquiz/metaverse',
+    demo: 'https://genuine-daffodil-aaf521.netlify.app/'
   },
   {
     id: 4,
@@ -41,9 +41,9 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: "This landing page was created for an insurance bulding company using JQuery and SASS",
-    github: 'https://github.com/bboysquiz/CPO',
-    demo: 'https://nikitaskvirskiy.ru/CPO'
+    title: "'Telix' was created using JQuery, SASS, PHP, RedBean PHP and Wordpress",
+    github: 'https://github.com/bboysquiz/Telix',
+    demo: 'https://nikitaskvirskiy.ru/Telix'
   },
   {
     id: 6,
