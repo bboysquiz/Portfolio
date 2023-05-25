@@ -6,59 +6,52 @@ import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.png'
-import IMG7 from '../../assets/portfolio7.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "Virtual bank was created using React JS, React Router, React Scroll and Styled Components",
-    github: 'https://github.com/bboysquiz/virtualbank',
-    demo: 'https://glistening-unicorn-559576.netlify.app'
-  },
-  {
-    id: 2,
-    image: IMG2,
-    title: "This project was created for university's foreign students using JQuery, SASS and Leaflet JS",
-    github: 'https://github.com/bboysquiz/Map',
-    demo: 'https://nikitaskvirskiy.ru/Map'
-  },
-  {
-    id: 3,
     image: IMG3,
     title: "'Metaverse' is training project using React JS, Next JS, Framer Motion and Tailwind CSS",
     github: 'https://github.com/bboysquiz/metaverse',
     demo: 'https://genuine-daffodil-aaf521.netlify.app/'
   },
   {
-    id: 4,
+    id: 2,
+    image: IMG6,
+    title: "Graduation project for university using React JS, SASS, Axios and React-Router-DOM",
+    github: 'https://github.com/bboysquiz/theatrebel',
+    demo: 'https://wonderful-sherbet-d324e0.netlify.app'
+  },
+  {
+    id: 3,
     image: IMG4,
-    title: "It was graduate work for my friend using JQuery, SASS, PHP and RedBean PHP",
-    github: 'https://github.com/bboysquiz/BreakDance',
-    demo: 'https://nikitaskvirskiy.ru/Breakdance'
+    title: "Web3 Blockchain Crowdfunding Platform using React JS, Vite JS, Solidity and Tailwind CSS",
+    github: 'https://github.com/bboysquiz/web3project',
+    demo: 'https://wondrous-wisp-1fb837.netlify.app/'
+  },
+  {
+    id: 4,
+    image: IMG1,
+    title: "Virtual bank was created using React JS, React Router, React Scroll and Styled Components",
+    github: 'https://github.com/bboysquiz/virtualbank',
+    demo: 'https://glistening-unicorn-559576.netlify.app'
   },
   {
     id: 5,
+    image: IMG2,
+    title: "This project was created for university's foreign students using JQuery, SASS and Leaflet JS",
+    github: 'https://github.com/bboysquiz/Map',
+    demo: 'https://nikitaskvirskiy.ru/Map'
+  },
+  
+  {
+    id: 6,
     image: IMG5,
     title: "'Telix' was created using JQuery, SASS, PHP, RedBean PHP and Wordpress",
     github: 'https://github.com/bboysquiz/Telix',
     demo: 'https://nikitaskvirskiy.ru/Telix'
   },
-  {
-    id: 6,
-    image: IMG6,
-    title: "This landing page was created for online school for parents using JQuery, SASS and WordPress",
-    github: 'https://github.com/bboysquiz/roditelschool',
-    demo: 'https://nikitaskvirskiy.ru/Roditelschool'
-  },
-  {
-    id: 7,
-    image: IMG7,
-    title: "Landing page for my Break Dance studio with JQuery and SASS",
-    github: 'https://github.com/bboysquiz/mesto-of-power',
-    demo: 'https://nikitaskvirskiy.ru/Mestoofpower'
-  }
 ]
 
 const Portfolio = () => {

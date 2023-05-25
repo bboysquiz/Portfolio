@@ -10,7 +10,7 @@ const frontendArr = [
   },
   {
     id: 2,
-    title: "CC3",
+    title: "CSS3",
     comment: "GREAT"
   },
   {
@@ -50,12 +50,47 @@ const frontendArr = [
   },
   {
     id: 10,
-    title: "Leaflet JS",
+    title: "LeafLet JS",
     comment: "GOOD"
   },
   {
     id: 11,
     title: 'Puppeteer JS',
+    comment: 'GOOD'
+  },
+  {
+    id: 12,
+    title: 'Bootstrap',
+    comment: 'GOOD'
+  },
+  {
+    id: 13,
+    title: 'BEM',
+    comment: 'GREAT'
+  },
+  {
+    id: 14,
+    title: 'TypeScript',
+    comment: 'GOOD'
+  },
+  {
+    id: 15,
+    title: 'NEXT JS',
+    comment: 'OKEY'
+  },
+  {
+    id: 16,
+    title: 'Framer Motion',
+    comment: 'GOOD'
+  },
+  {
+    id: 17,
+    title: 'Tailwind CSS',
+    comment: 'GOOD'
+  },
+  {
+    id: 18,
+    title: 'Styled Components',
     comment: 'GOOD'
   }
 ]
@@ -82,7 +117,17 @@ const backendArr = [
   },
   {
     id: 5,
-    title: "Wordpress",
+    title: "WordPress",
+    comment: "OKEY"
+  },
+  {
+    id: 6,
+    title: "WebSockets",
+    comment: "OKEY"
+  },
+  {
+    id: 7,
+    title: "Solidity",
     comment: "OKEY"
   }
 ]

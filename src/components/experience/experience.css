@@ -26,8 +26,9 @@
 
 .experience__content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1.6rem;
+    column-gap: .6rem;
 }
 
 .experience__details {
@@ -38,6 +39,10 @@
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
+}
+
+.experience__details > div {
+    font-size: 13px;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================== */
