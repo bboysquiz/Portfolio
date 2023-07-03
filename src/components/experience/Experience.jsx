@@ -20,13 +20,13 @@ const frontendArr = [
   },
   {
     id: 4,
-    title: "GULP",
+    title: "JavaScript",
     comment: "GREAT"
   },
   {
     id: 5,
-    title: "JavaScript",
-    comment: "GREAT"
+    title: "LeafLet JS",
+    comment: "GOOD"
   },
   {
     id: 6,
@@ -41,27 +41,27 @@ const frontendArr = [
   {
     id: 8,
     title: "REACT",
-    comment: "GOOD"
+    comment: "GREAT"
   },
   {
     id: 9,
     title: "REDUX",
-    comment: "OKEY"
+    comment: "GOOD"
   },
   {
     id: 10,
-    title: "LeafLet JS",
+    title: "REDUX Toolkit",
     comment: "GOOD"
   },
   {
     id: 11,
-    title: 'Puppeteer JS',
+    title: 'Redux Thunk',
     comment: 'GOOD'
   },
   {
     id: 12,
-    title: 'Bootstrap',
-    comment: 'GOOD'
+    title: 'Puppeteer JS',
+    comment: 'GREAT'
   },
   {
     id: 13,
@@ -92,6 +92,11 @@ const frontendArr = [
     id: 18,
     title: 'Styled Components',
     comment: 'GOOD'
+  },
+  {
+    id: 19,
+    title: 'Axios',
+    comment: 'GREAT'
   }
 ]
 const backendArr = [
@@ -112,21 +117,11 @@ const backendArr = [
   },
   {
     id: 4,
-    title: "NODE JS",
-    comment: "OKEY"
-  },
-  {
-    id: 5,
     title: "WordPress",
     comment: "OKEY"
   },
   {
-    id: 6,
-    title: "WebSockets",
-    comment: "OKEY"
-  },
-  {
-    id: 7,
+    id: 5,
     title: "Solidity",
     comment: "OKEY"
   }

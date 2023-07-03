@@ -11,10 +11,10 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 const data = [
   {
     id: 1,
-    image: IMG3,
-    title: "'Metaverse' is training project using React JS, Next JS, Framer Motion and Tailwind CSS",
-    github: 'https://github.com/bboysquiz/metaverse',
-    demo: 'https://genuine-daffodil-aaf521.netlify.app/'
+    image: IMG1,
+    title: "Currency coverter was created using React JS, React Router, Redux Toolkit, Redux Thunk, Axios and Typescript",
+    github: 'https://github.com/bboysquiz/currency-converter/tree/main',
+    demo: 'https://64a271b2a3ef6d54737df0ed--resonant-trifle-30e299.netlify.app/'
   },
   {
     id: 2,
@@ -32,10 +32,10 @@ const data = [
   },
   {
     id: 4,
-    image: IMG1,
-    title: "Virtual bank was created using React JS, React Router, React Scroll and Styled Components",
-    github: 'https://github.com/bboysquiz/virtualbank',
-    demo: 'https://glistening-unicorn-559576.netlify.app'
+    image: IMG3,
+    title: "'Metaverse' is training project using React JS, Next JS, Framer Motion and Tailwind CSS",
+    github: 'https://github.com/bboysquiz/metaverse',
+    demo: 'https://genuine-daffodil-aaf521.netlify.app/'
   },
   {
     id: 5,
